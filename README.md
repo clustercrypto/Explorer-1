@@ -28,8 +28,8 @@ $ sudo systemctl enable sync
 Setup `explorer.service`:
 ```
 $ sudo nano /etc/systemd/system/explorer.service
-$ sudo systemctl start sync
-$ sudo systemctl enable sync
+$ sudo systemctl start explorer
+$ sudo systemctl enable explorer
 ```
 
 4) Enjoy :)
